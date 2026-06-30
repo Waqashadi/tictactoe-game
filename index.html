@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tic Tac & Toe</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <h1 class="h1 my-3">Tic Tac Toe Game</h1>
+    <h3 class="p my-4" id="p">game start by just tapping on box</h3>
+
+    <div class="container" id="cont">
+      <div class="secone my-5">
+        <div class="box boxLone"><h2 class="h2 mx-4 py-3"></h2></div>
+        <div class="box boxLone"><h2 class="h2 mx-4 py-3"></h2></div>
+        <div class="box boxLone rm"><h2 class="h2 mx-4 py-3"></h2></div>
+      </div>
+      <div class="secone my-5">
+        <div class="box boxLtwo"><h2 class="h2 mx-4 py-3"></h2></div>
+        <div class="box boxLtwo"><h2 class="h2 mx-4 py-3"></h2></div>
+        <div class="box boxLtwo rm"><h2 class="h2 mx-4 py-3"></h2></div>
+      </div>
+      <div class="secone my-5">
+        <div class="box boxLthree"><h2 class="h2 mx-4 py-3"></h2></div>
+        <div class="box boxLthree"><h2 class="h2 mx-4 py-3"></h2></div>
+        <div class="box boxLthree rm last"><h2 class="h2 mx-4 py-3"></h2></div>
+      </div>
+      <div id="gif"><img id="gifImg" src="img/excited.gif" alt="" /></div>
+    </div>
+
+    <div class="foot my-3">
+      <p class="pp my-3" id="turnn">Turn for <span id="turn"> </span></p>
+      <p class="pp my-3" id="draw">Match is draw</p>
+      <button class="btn btn-success btn-lg" id="reset" onclick="reset()">
+        Reset
+      </button>
+      <button class="btn btn-success btn-lg" id="again" onclick="reset()">
+        Play Again
+      </button>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

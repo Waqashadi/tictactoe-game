@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+body {
+  background: linear-gradient(
+    108.1deg,
+    rgb(167, 220, 225) 11.2%,
+    rgb(217, 239, 242) 88.9%
+  );
+}
+
+.red {
+    border: 2px solid red !important;
+}
+
+.h1 {
+  font-family: "Croissant One", cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+.boxLone {
+  border-right: 2px solid red;
+  border-bottom: 2px solid red;
+  height: 90px;
+  width: 90px;
+  margin: 2px;
+}
+.boxLtwo {
+  border-right: 2px solid red;
+  border-bottom: 2px solid red;
+  height: 90px;
+  width: 90px;
+  margin: 2px;
+}
+.boxLthree {
+  border-bottom: 2px solid red;
+  height: 90px;
+  width: 90px;
+  margin: 2px;
+}
+.rm {
+  border-right: 2px solid red;
+  border-bottom: none;
+  border-top: none;
+}
+.last {
+  border: none;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.h2 {
+  font-size: 2.5rem;
+  font-family: "Dela Gothic One", cursive;
+}
+.container {
+  background-color: #a0e2e2;
+  border-radius: 22px;
+}
+.btn {
+  margin-left: 50%;
+  transform: translate(-50%);
+  background-color: #5c5470;
+  font-family: "Lora", serif;
+}
+.btn:hover {
+  background-color: #a29eac;
+  color: black;
+}
+
+.boxLone,
+.boxLthree,
+.boxLtwo {
+  cursor: pointer;
+}
+.box:hover {
+  background-color: rgb(233, 219, 219);
+}
+.p {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Ubuntu", sans-serif;
+  color: #83580b;
+}
+.pp {
+  text-align: center;
+  font-family: "Lora", serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.pp span {
+  text-align: center;
+  font-family: "Croissant One", cursive;
+  font-weight: bolder;
+  color: #83580b;
+}
+#result {
+  text-align: center;
+  font-size: 4rem;
+}
+#draw {
+  text-align: center;
+  font-family: "Croissant One", cursive;
+  font-weight: bolder;
+  color: #83580b;
+  display: none;
+}
+#gif img {
+  width: 0;
+  transition: width 1s linear;
+}
+
+#again {
+  display: none;
+}
+
+@media (max-width: 460px) {
+  .h1 {
+    font-size: 2rem;
+  }
+}
